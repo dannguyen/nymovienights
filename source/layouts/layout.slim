@@ -1,0 +1,18 @@
+= partial "partials/layout/meta_header"
+
+
+body
+
+  <!--[if lt IE 8]>
+    / =# partial "partials/layout/compatibility-notice"
+  <![endif]-->
+
+  = partial "partials/layout/header"
+
+  div class="container"
+    = yield
+
+
+
+= partial "partials/layout/footer"
+
