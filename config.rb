@@ -1,3 +1,5 @@
+require 'lib/movie'
+
 #I18n.enforce_available_locales = true
 set :markdown_engine, :kramdown
 
@@ -61,14 +63,17 @@ end
 
 
 
-# Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
+ready do
+  data.venues.each do |venue|
+    proxy "/venues/#{venue.name.parameterize}", "/templates/venue.html", :locals => { :venue => venue}, :ignore => true
+  end
+end
 
-###
-# Page options, layouts, aliases and proxies
-###
+
+
+
+
+
 
 # Per-page layout changes:
 #

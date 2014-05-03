@@ -1,0 +1,21 @@
+---
+layout: layout
+title: Venue
+---
+
+h2 = venue.name
+
+div.row
+
+  div.col-sm-4
+    div.address = venue.address
+    div.borough = venue.borough
+
+
+  div.col-sm-8
+    div.movies
+      - venue.movies.each do |movie|
+        div.movie
+          h4 = movie.title
+          div.data = friendly_time movie.time
+          div.venue = movie.name

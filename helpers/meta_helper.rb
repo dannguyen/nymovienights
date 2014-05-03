@@ -33,12 +33,25 @@ def make_markdown(str)
 end
 
 
-# def friendly_date(val)
-#   if val =~ /^\d+/
-#     date = Chronic.parse(val)
+def friendly_time(val)
+  if val =~ /^\d+/
+    date = Chronic.parse(val)
 
-#     return date.strftime '%B %Y'
-#   else
-#     return val
-#   end
-# end
+    return date.strftime '%B %e, %l:%M %P'
+  else
+    return val
+  end
+end
+
+
+
+
+def movie_collection(venues)
+  arr = venues.map do |venue|
+    venue.movies.map do |movie|
+      Hashie::Mash.new(movie.merge(venue: venue))
+    end
+  end.flatten.sort_by{|e| e.time }
+
+  arr
+end

@@ -1,0 +1,169 @@
+- name: Brooklyn Bridge Park
+  category: park
+  address: Pier 1
+  borough: Brooklyn
+  zip: 11201
+  lat: 40.6945658
+  lng: -73.9918181
+  image_url: http://farm5.static.flickr.com/4100/4820185603_42c008bcba_b.jpg
+  movies:
+  - title: "Geraldine Harvey"
+    time: "2014-06-02 19:30"
+  - title: "Aaron Dietrich"
+    time: "2014-06-09 19:30"
+  - title: "Mertie Armstrong"
+    time: "2014-06-16 19:30"
+  - title: "Reta Anderson IV"
+    time: "2014-06-23 19:30"
+  - title: "Tomas Lakin"
+    time: "2014-06-30 19:30"
+  - title: "Betty Homenick"
+    time: "2014-07-07 19:30"
+  - title: "Mariana Denesik"
+    time: "2014-07-14 19:30"
+  - title: "Dr. Rebeka Gislason"
+    time: "2014-07-21 19:30"
+  - title: "Dr. Jerod Schoen"
+    time: "2014-07-28 19:30"
+  - title: "Mckenna Connelly"
+    time: "2014-08-04 19:30"
+
+
+- name: U.S.S. Intrepid
+  category: Museum
+  address: W 46th Street & 12th Ave. Pier 86
+  borough: Manhattan
+  zip: 10036
+  lat: 40.764714
+  lng: -74.000902
+  image_url: http://farm5.static.flickr.com/4104/4969970344_ba4f640f04_b.jpg
+  movies:
+    - title: "Geo Luettgen II"
+      time: "2014-05-18 18:00"
+    - title: "Mr. Ezekiel Sanford"
+      time: "2014-05-25 18:00"
+    - title: "Mr. Janick Dicki"
+      time: "2014-06-01 18:00"
+    - title: "Rasheed Greenfelder"
+      time: "2014-06-08 18:00"
+    - title: "Quentin Bauch"
+      time: "2014-06-15 18:00"
+    - title: "Ibrahim Davis"
+      time: "2014-06-22 18:00"
+    - title: "Mr. Mohammed Miller"
+      time: "2014-06-29 18:00"
+    - title: "Mrs. Donnell Nolan"
+      time: "2014-07-06 18:00"
+    - title: "Sigrid Lindgren"
+      time: "2014-07-13 18:00"
+    - title: "Benjamin Towne III"
+      time: "2014-07-20 18:00"
+
+- name: "Hudson River Park: Pier 46"
+  category: Park
+  address: Near Charles St. and West St.
+  borough: Manhattan
+  zip: 10014
+  lat: 40.7338335
+  lng: -74.0100976
+  image_url: http://farm6.static.flickr.com/5063/5747978749_b65b9fb5e6_b.jpg
+  movies:
+  - title: "Samantha Lehner DVM"
+    time: "2014-05-20 19:00"
+  - title: "Clotilde Grimes"
+    time: "2014-05-27 19:00"
+  - title: "Liana Johns"
+    time: "2014-06-03 19:00"
+  - title: "Ofelia Grimes"
+    time: "2014-06-10 19:00"
+  - title: "Erich Prosacco"
+    time: "2014-06-17 19:00"
+  - title: "Jennie Koch"
+    time: "2014-06-24 19:00"
+  - title: "Dean Windler"
+    time: "2014-07-01 19:00"
+  - title: "Miss Kaitlin Beahan"
+    time: "2014-07-08 19:00"
+  - title: "Kailee Rogahn"
+    time: "2014-07-15 19:00"
+  - title: "Wilford Jaskolski"
+    time: "2014-07-22 19:00"
+
+- name: "Bryant Park"
+  url: http://www.bryantpark.org/plan-your-visit/filmfestival.html
+  program: "HBO Bryant Park Summer Film Festival"
+  address: 41 West 40th Street
+  borough: Manhattan
+  zip: 10018
+  category: Park
+  description: "Classic films under the stars on the big screen. Bring a blanket and sit on the lawn to enjoy great food, friends, plus a classic Warner Brothers cartoon before each film. The lawn opens at 5:00pm for blankets and picnicking. Films begin at sunset (typically between 8pm and 9pm). All packages, bags, briefcases, backpacks, etc. subject to inspection."
+  lat: 40.7529487
+  lng: -73.9835606
+  movies:
+  - title: "Lorem isum 1"
+    time: "2014-06-23 17:00"
+  - title: "Lorem isum 2"
+    time: "2014-06-30 17:00"
+  - title: "Lorem isum 3"
+    time: "2014-07-07 17:00"
+  - title: "Lorem isum 4"
+    time: "2014-07-14 17:00"
+  - title: "Lorem isum 5"
+    time: "2014-07-21 17:00"
+  - title: "Lorem isum 6"
+    time: "2014-07-28 17:00"
+  - title: "Lorem isum 7"
+    time: "2014-08-04 17:00"
+  - title: "Lorem isum 8"
+    time: "2014-08-11 17:00"
+  - title: "Lorem isum 9"
+    time: "2014-08-18 17:00"
+
+# - name: TK
+#   category: TK
+#   address: TK
+#   borough: TK
+#   zip: TK
+#   lat: TK
+#   lng: TK
+#   image_url: TK
+#   movies:
+#     - name: "Lorem ipsum"
+
+
+# - name: TK
+#   category: TK
+#   address: TK
+#   borough: TK
+#   zip: TK
+#   lat: TK
+#   lng: TK
+#   image_url: TK
+#   movies:
+#     - name: "Lorem ipsum"
+
+
+# - name: TK
+#   category: TK
+#   address: TK
+#   borough: TK
+#   zip: TK
+#   lat: TK
+#   lng: TK
+#   image_url: TK
+#   movies:
+#     - name: "Lorem ipsum"
+
+
+# - name: TK
+#   category: TK
+#   address: TK
+#   borough: TK
+#   zip: TK
+#   lat: TK
+#   lng: TK
+#   image_url: TK
+#   movies:
+#     - name: "Lorem ipsum"
+
+

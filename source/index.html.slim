@@ -6,5 +6,16 @@ title: Welcome to Middleman
 div.container
   h1 Hello There
 
-  p = link_to "Read Online Documentation", "http://middlemanapp.com/"
 
+  div.row
+    - movie_collection(data.venues).each do |m|
+      - movie = Movie.new(m)
+      - venue = m.venue
+      div.col-sm-4.box
+        div.movie
+          div.imgwrap
+            img src=movie.image_url
+          h4.title = movie.title
+          div.summary = movie.summary
+          div.time = friendly_time movie.time
+          div.venue = link_to venue.name, "/venues/#{venue.name.parameterize}"
